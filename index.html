@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Landie</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220423150801" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap&_v=20220423150801" rel="stylesheet" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-scroll="100" data-scroll-show="400">
+			<div class="header__container">
+				<nav class="header__nav">
+					<button type="button" class="header__icon icon-menu">
+						<span></span>
+					</button>
+					<ul class="header__list">
+						<li class="header__item" data-goto=".introduce" data-goto-header>
+							Home
+						</li>
+						<li class="header__item" data-goto=".page__section" data-goto-header>
+							About
+						</li>
+						<li class="header__item" data-goto="footer" data-goto-header>
+							Contact
+						</li>
+					</ul>
+					<div class="header__logo">
+						<img src="img/logo.svg" alt="logo" />
+					</div>
+					<a href="#" class="header__btn blue-btn" data-goto=".price" data-goto-header>Buy Now</a>
+				</nav>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="introduce">
+				<div class="introduce__container" data-watch data-watch-threshold="0.3">
+					<div class="introduce__image scale">
+						<picture><source srcset="img/main-image.webp" type="image/webp"><img src="img/main-image.png" alt="" /></picture>
+					</div>
+					<div class="introduce__content">
+						<h1 class="introduce__title title-block slide-right">
+							Introduce Your Product Quickly & Effectively
+						</h1>
+						<p class="introduce__subtitle subtitle-block slide-right">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+							commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+							penatibus et magnis dis parturient montes, nascetur ridiculus
+						</p>
+						<p class="introduce__subtitle slide-right">
+							mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+							quis, sem. Nulla consequat massa quis enim.
+						</p>
+						<div class="introduce__butons slide-right">
+							<a href="#" class="introduce__btn blue-btn">Purchase UI Kit</a>
+							<a href="#" class="introduce__btn blue-btn blue-btn_transparent">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="page__section">
+				<section class="quality">
+					<div class="quality__container" data-watch data-watch-threshold="0.1">
+						<div class="quality__content">
+							<h2 class="quality__title title-block slide-right">
+								Light, Fast & Powerful
+							</h2>
+							<p class="quality__subtitle subtitle-block slide-right">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+								Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+								natoque penatibus et magnis dis parturient montes, nascetur
+								ridiculus
+							</p>
+							<p class="quality__subtitle subtitle-block slide-right">
+								mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+								quis, sem. Nulla consequat massa quis enim
+							</p>
+							<div class="quality__blocks">
+								<div class="quality__block quality-block slide-right">
+									<div class="quality-block__icon">
+										<img src="img/Icon.svg" alt="" />
+									</div>
+									<div class="quality-block__title">Title Goes Here</div>
+									<p class="quality-block__subtitle">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+										Aenean commodo ligula eget dolor.
+									</p>
+								</div>
+								<div class="quality__block quality-block slide-right">
+									<div class="quality-block__icon">
+										<img src="img/Icon.svg" alt="" />
+									</div>
+									<div class="quality-block__title">Title Goes Here</div>
+									<p class="quality-block__subtitle">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+										Aenean commodo ligula eget dolor.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="quality__image slide-left">
+							<picture><source srcset="img/mobile.webp" type="image/webp"><img src="img/mobile.jpg" alt="" /></picture>
+						</div>
+					</div>
+				</section>
+				<section class="quality">
+					<div class="quality__container Light__container" data-watch data-watch-threshold="0.1">
+						<div class="quality__content Light__content">
+							<h2 class="quality__title title-block slide-left">
+								Light, Fast & Powerful
+							</h2>
+							<p class="quality__subtitle subtitle-block slide-left">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+								Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+								natoque penatibus et magnis dis parturient montes, nascetur
+								ridiculus
+							</p>
+							<p class="quality__subtitle subtitle-block slide-left">
+								mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+								quis, sem. Nulla consequat massa quis enim
+							</p>
+						</div>
+						<div class="quality__image Light__image slide-right">
+							<picture><source srcset="img/powerful.webp" type="image/webp"><img src="img/powerful.jpg" alt="" /></picture>
+						</div>
+					</div>
+				</section>
+				<section class="quality">
+					<div class="quality__container Light__container" data-watch data-watch-threshold="0.1">
+						<div class="quality__content Light__content">
+							<h2 class="quality__title title-block slide-left">
+								Light, Fast & Powerful
+							</h2>
+							<p class="quality__subtitle subtitle-block slide-left">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+								Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+								natoque penatibus et magnis dis parturient montes, nascetur
+								ridiculus
+							</p>
+							<p class="quality__subtitle subtitle-block slide-left">
+								mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+								quis, sem. Nulla consequat massa quis enim
+							</p>
+						</div>
+						<div class="quality__image Light__image slide-right">
+							<picture><source srcset="img/light.webp" type="image/webp"><img src="img/light.jpg" alt="" /></picture>
+						</div>
+					</div>
+				</section>
+				<section class="quality radius-bock">
+					<div class="quality__container Light__container" data-watch data-watch-threshold="0.1">
+						<div class="quality__content Light__content">
+							<h2 class="quality__title title-block slide-left">
+								Light, Fast & Powerful
+							</h2>
+							<p class="quality__subtitle subtitle-block slide-left">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+								Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+								natoque penatibus et magnis dis parturient montes, nascetur
+								ridiculus
+							</p>
+							<p class="quality__subtitle subtitle-block slide-left">
+								mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+								quis, sem. Nulla consequat massa quis enim
+							</p>
+						</div>
+						<div class="quality__image Light__image slide-right">
+							<picture><source srcset="img/fast.webp" type="image/webp"><img src="img/fast.jpg" alt="" /></picture>
+						</div>
+					</div>
+				</section>
+			</div>
+			<section class="price">
+				<div class="price__container" data-watch data-watch-threshold="0.3">
+					<h2 class="price__title title-block slide-top">
+						A Price To Suit Everyone
+					</h2>
+					<p class="price__subtitle subtitle-block slide-top">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+						commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+						penatibus et magnis dis parturient montes, nascetur ridiculus
+					</p>
+					<div class="price__text">
+						<div class="price__price slide-top">$40</div>
+						<div class="price__caption slide-top">UI Design Kit</div>
+					</div>
+					<div class="price__caption price__caption_gray slide-top">
+						UI Design Kit
+					</div>
+					<a href="#" class="introduce__btn price__btn blue-btn slide-top">Purchase Now</a>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__copy">©2020 Yourcompany</div>
+					<div class="footer__logo">
+						<img src="img/logo.svg" alt="logo" />
+					</div>
+					<div class="footer__btn blue-btn">Purchase now</div>
+				</div>
+				<div class="footer__bottom">
+					<ul class="footer__links">
+						<li class="footer__link">Home</li>
+						<li class="footer__link">About</li>
+						<li class="footer__link">Contact</li>
+					</ul>
+					<div class="footer__icons">
+						<img src="img/facebook.svg" alt="" />
+						<img src="img/in.svg" alt="" />
+						<img src="img/twiter.svg" alt="" />
+						<img src="img/youtube.svg" alt="" />
+						<img src="img/inst.svg" alt="" />
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220423150801"></script>
+</body>
+
+</html>
